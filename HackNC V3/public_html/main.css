@@ -7,6 +7,11 @@ and open the template in the editor.
     Created on : Oct 25, 2014, 7:25:29 PM
     Author     : landon
 */
+
+body
+{
+	/* text-align: center; */
+}
 #backgroundPic {
     position: absolute; left: 0; top: 0;
     width:100%;
@@ -18,8 +23,10 @@ and open the template in the editor.
 }
 
 #container {
-   // background-color: black;      
-    width: 600px;
+   // background-color: black;     
+	/* display: inline-block; */
+    width: 1920px;
+    height: 1080px;
     margin: auto;
     position: absolute;
 }

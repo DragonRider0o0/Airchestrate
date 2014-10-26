@@ -28,7 +28,9 @@ currentVolume = 0.5
 volumeIncrement = 0.1
 downIncrement = - 0.1
 
-notches = 0;
+notches = 0
+
+counting = false
 
 
 
@@ -37,17 +39,20 @@ tempo = 84
 -- myo.controlMouse(enabled)
 
 function onPoseEdge(pose, edge)
-	if currentApp == "AIRCHESTRATE" then
+	if currentApp == "AIRCHESTRATE" or currentApp == "AIRCHESTRATE - Google Chrome" then
 		-- myo.debug("Time: " .. currentTime)
 		if pose == "fist" and edge == "on" then
 			-- myo.mouse("left", "down")
 			myo.keyboard("p", "press")
 			myo.debug("Fist")
+			counting = false
 		end
 		if pose == "fist" and edge == "off"  then
 			-- myo.mouse("left", "up")
 			myo.keyboard("space", "press")
 			-- myo.debug("Unfist")
+			counting = true
+			beginTime = myo.getTimeMilliseconds() - (currentTime * 1000)
 		end
 
 		if pose == "thumbToPinky" then
@@ -57,7 +62,11 @@ function onPoseEdge(pose, edge)
 end
 
 function onPeriodic()
-	currentTime = (myo.getTimeMilliseconds() - beginTime) / 1000
+	if counting == true then
+		currentTime = (myo.getTimeMilliseconds() - beginTime) / 1000
+	else
+		return;
+	end
 	
 	if expectedTime < currentTime then
 		beatCount = beatCount + 1;
@@ -160,7 +169,7 @@ function onPeriodic()
 end
 
 function onForegroundWindowChange(app, title)
-    -- myo.debug("onForegroundWindowChange: " .. app .. ", " .. title)
+    myo.debug("onForegroundWindowChange: " .. app .. ", " .. title)
 	currentApp = title
     return true
 end
