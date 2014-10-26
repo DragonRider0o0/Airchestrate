@@ -29,7 +29,7 @@ and open the template in the editor.
   //  height: 50px;
     position: absolute;
     left:893px; top:108px;
-    /* Chrome, Safari, Opera */
+    /* Chrome, Safari, Opera
     -webkit-animation-name: myfirst;
     -webkit-animation-duration: 2.85714286s;
     -webkit-animation-timing-function: linear;
@@ -37,7 +37,7 @@ and open the template in the editor.
     -webkit-animation-iteration-count: infinite;
 //    -webkit-animation-direction: alternate;
     -webkit-animation-play-state: paused;
-    /* Standard syntax */
+    Standard syntax */
     animation-name: myfirst;
     animation-duration: 2.85714286s;
     animation-timing-function: linear;
@@ -78,7 +78,7 @@ and open the template in the editor.
     Created on : Oct 26, 2014, 3:41:42 AM
     Author     : landon
 */
-
+/*
 @-webkit-keyframes myfirst {
     0%   {background:transparent; left:892px; top:108px;}
     1%   {background:transparent; left:892px; top:136px;}
@@ -182,6 +182,7 @@ and open the template in the editor.
     99%  {background:transparent; left:900px; top:156px;}
     100%  {background:transparent; left:892px; top:108px;}
 }
+
 
 /* Chrome, Safari, Opera */
 /*
@@ -291,10 +292,105 @@ and open the template in the editor.
 */
 /* Standard syntax */
 @keyframes myfirst {
-    0%   {background:red; left:50px; top:50px;}
-    25%  {background:yellow; left:100px; top:800px;}
-    50%  {background:blue; left:0px; top:600px;}
-    75%  {background:green; left:500px; top:600px;}
-    100% {background:red; left:500px; top:400px;}
-    }
-    
+    0%   {background:transparent; left:892px; top:108px;}
+    1%   {background:transparent; left:892px; top:136px;}
+    2%   {background:transparent; left:892px; top:164px;}
+    3%   {background:transparent; left:892px; top:192px;}
+    4%   {background:transparent; left:892px; top:220px;}
+    5%   {background:transparent; left:892px; top:248px;}
+    6%   {background:transparent; left:892px; top:276px;}
+    7%   {background:transparent; left:892px; top:304px;}
+    8%   {background:transparent; left:892px; top:332px;}
+    9%   {background:transparent; left:892px; top:360px;}
+    10%   {background:transparent; left:892px; top:388px;}
+    11%   {background:transparent; left:892px; top:416px;}
+    12%   {background:transparent; left:892px; top:444px;}
+    13%   {background:transparent; left:892px; top:472px;}
+    14%   {background:transparent; left:892px; top:500px;}
+    15%   {background:transparent; left:892px; top:528px;}
+    16%   {background:transparent; left:892px; top:556px;}
+    17%   {background:transparent; left:892px; top:584px;}
+    18%   {background:transparent; left:892px; top:612px;}
+    19%   {background:transparent; left:892px; top:640px;}
+    20%   {background:transparent; left:892px; top:668px;}
+    21%   {background:transparent; left:892px; top:694px;}
+    22%   {background:transparent; left:892px; top:722px;}
+    23%   {background:transparent; left:892px; top:750px;}
+    24%   {background:transparent; left:892px; top:780px;}
+    25%  {background:transparent; left:892px; top:822px;}
+    26%  {background:transparent; left:888px; top:792px;}
+    27%  {background:transparent; left:880px; top:777px;}
+    28%  {background:transparent; left:873px; top:768px;}
+    29%  {background:transparent; left:864px; top:762px;}
+    30%  {background:transparent; left:855px; top:758px;}
+    31%  {background:transparent; left:828px; top:750px;}
+    32%  {background:transparent; left:805px; top:749px;}
+    33%  {background:transparent; left:783px; top:755px;}
+    34%  {background:transparent; left:763px; top:765px;}
+    35%  {background:transparent; left:744px; top:774px;}
+    36%  {background:transparent; left:732px; top:782px;}
+    37%  {background:transparent; left:725px; top:788px;}//!
+    38%  {background:transparent; left:718px; top:794px;}
+    39%  {background:transparent; left:710px; top:800px;}//!
+    40%  {background:transparent; left:702px; top:806px;}
+    41%  {background:transparent; left:689px; top:812px;}//!
+    42%  {background:transparent; left:676px; top:819px;}
+    43%  {background:transparent; left:662px; top:825px;}//!
+    44%  {background:transparent; left:648px; top:831px;}
+    45%  {background:transparent; left:640px; top:832px;}//!
+    46%  {background:transparent; left:631px; top:833px;}
+    47%  {background:transparent; left:622px; top:831px;}//!
+    48%  {background:transparent; left:613px; top:830px;}
+    49%  {background:transparent; left:601px; top:824px;}
+    50%  {background:transparent; left:592px; top:809px;}
+    51%  {background:transparent; left:589px; top:792px;}
+    52%  {background:transparent; left:592px; top:780px;}
+    53%  {background:transparent; left:598px; top:768px;}
+    54%  {background:transparent; left:610px; top:758px;}
+    55%  {background:transparent; left:633px; top:740px;}
+    56%  {background:transparent; left:661px; top:725px;}
+    57%  {background:transparent; left:690px; top:711px;}
+    58%  {background:transparent; left:745px; top:698px;}
+    59%  {background:transparent; left:802px; top:684px;}
+    60%  {background:transparent; left:852px; top:690px;}
+    61%  {background:transparent; left:872px; top:693px;}//!
+    62%  {background:transparent; left:892px; top:696px;}
+    63%  {background:transparent; left:914px; top:703px;}//!
+    64%  {background:transparent; left:936px; top:710px;}
+    65%  {background:transparent; left:967px; top:723px;}
+    66%  {background:transparent; left:1013px; top:747px;}
+    67%  {background:transparent; left:1044px; top:767px;}
+    68%  {background:transparent; left:1086px; top:792px;}
+    69%  {background:transparent; left:1136px; top:812px;}
+    70%  {background:transparent; left:1176px; top:818px;}
+    71%  {background:transparent; left:1203px; top:803px;}
+    72%  {background:transparent; left:1227px; top:779px;}
+    73%  {background:transparent; left:1247px; top:752px;}
+    74%  {background:transparent; left:1260px; top:728px;}
+    75%  {background:transparent; left:1268px; top:710px;}
+    76%  {background:transparent; left:1268px; top:710px;}//!
+    77%  {background:transparent; left:1268px; top:710px;}//!
+    78%  {background:transparent; left:1262px; top:713px;}//!
+    79%  {background:transparent; left:1258px; top:716px;}//!
+    80%  {background:transparent; left:1253px; top:720px;}
+    81%  {background:transparent; left:1247px; top:722px;}//!
+    82%  {background:transparent; left:1242px; top:725px;}//!
+    83%  {background:transparent; left:1236px; top:729px;}//!
+    84%  {background:transparent; left:1231x; top:733px;}//!
+    85%  {background:transparent; left:1226px; top:737px;}
+    86%  {background:transparent; left:1188px; top:750px;}
+    87%  {background:transparent; left:1157px; top:744px;}
+    88%  {background:transparent; left:1113px; top:723px;}
+    89%  {background:transparent; left:1083px; top:698px;}
+    90%  {background:transparent; left:1061px; top:672px;}
+    91%  {background:transparent; left:1035px; top:638px;}
+    92%  {background:transparent; left:1013px; top:600px;}
+    93%  {background:transparent; left:998px; top:566px;}
+    94%  {background:transparent; left:981px; top:523px;}
+    95%  {background:transparent; left:951px; top:421px;}
+    96%  {background:transparent; left:936px; top:358px;}
+    97%  {background:transparent; left:924px; top:298px;}
+    98%  {background:transparent; left:912px; top:223px;}
+    99%  {background:transparent; left:900px; top:156px;}
+    100%  {background:transparent; left:892px; top:108px;}
+}

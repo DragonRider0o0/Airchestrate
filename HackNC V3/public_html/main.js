@@ -37,7 +37,7 @@ function paused(){
    //     play = true;
     }
      document.getElementById("circle").style.animationPlayState= "paused";
-     document.getElementById("circle").style.WebkitAnimationPlayState= "paused";
+     /* document.getElementById("circle").style.WebkitAnimationPlayState= "paused"; */
 }
 
 
@@ -101,7 +101,7 @@ function start() {
     audio.play();
     audio.volume = volume;
     document.getElementById("circle").style.animationPlayState= "running";
-    document.getElementById("circle").style.WebkitAnimationPlayState= "running";
+    /* document.getElementById("circle").style.WebkitAnimationPlayState= "running"; */
 }
 
 /*
