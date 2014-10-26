@@ -15,6 +15,8 @@ currentBeat = 4
 beatCount = 1
 secondsPerBeat = 0.714
 
+currentApp = ""
+
 
 
 tempo = 84
@@ -22,16 +24,20 @@ tempo = 84
 -- myo.controlMouse(enabled)
 
 function onPoseEdge(pose, edge)
-    myo.debug("Time: " .. currentTime)
-	if pose == "fist" and edge == "on" then
-		-- myo.mouse("left", "down")
-	end
-	if pose == "fist" and edge == "off"  then
-		-- myo.mouse("left", "up")
-	end
+	if currentApp == "AIRCHESTRATE" then
+		myo.debug("Time: " .. currentTime)
+		if pose == "fist" and edge == "on" then
+			-- myo.mouse("left", "down")
+			myo.debug("Fist")
+		end
+		if pose == "fist" and edge == "off"  then
+			-- myo.mouse("left", "up")
+			myo.debug("Unfist")
+		end
 
-	if pose == "thumbToPinky" then
-		-- myo.centerMousePosition()
+		if pose == "thumbToPinky" then
+			-- myo.centerMousePosition()
+		end
 	end
 end
 
@@ -83,6 +89,7 @@ end
 
 function onForegroundWindowChange(app, title)
     myo.debug("onForegroundWindowChange: " .. app .. ", " .. title)
+	currentApp = title
     return true
 end
 
