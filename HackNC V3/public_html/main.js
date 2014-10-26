@@ -7,12 +7,14 @@
 setTimeout(function() {
     console.log('fuck yeh');
     document.getElementById("placeCircle").innerHTML="<img id='twinCircle' src='circle_light_green.svg' />";
-}, 0.001);
- 
+}, 30);
+
+/*
 window.addEventListener("mousedown", alertInfo);
-*/
+
 function alertInfo() {
     var x = event.clientX;
     var y = event.clientY;
     console.log('('+x+','+y+')');
 }
+*/
