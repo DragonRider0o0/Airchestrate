@@ -16,15 +16,6 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\pure-nr-min.css">
-      <PackagePath>css\pure-nr-min.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\style.css">
-      <PackagePath>css\style.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
@@ -59,11 +50,8 @@
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\raf.js">
-      <PackagePath>js\raf.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\scroll.js">
-      <PackagePath>js\scroll.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no maximum-scale=1">
     <title>AIRCHESTRATE</title>
 
     <!-- WinJS references -->
@@ -9,15 +10,42 @@
     <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
 
-    <!-- ARCHESTRATE references -->
+    <!-- AIRCHESTRATE references -->
     <link href="/css/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/pure-nr-min.css">
-    <link rel="stylesheet" href="/css/style.css">
     <script src="/js/default.js"></script>
-    <script src="/js/raf.js"></script>
-    <script src="/js/scroll.js"></script>
 </head>
 <body>
+
+    <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template" data-win-options="{ selectionMode: 'single'}">
+        <div style="padding: 5px; overflow: hidden;">
+            <!-- Displays the "title" field. -->
+            <span data-win-bind="innerText: title"></span>
+        </div>
+    </div>
+    </div>
+
+    <div id="basicListView" class="hide-scrollbar" data-win-control="WinJS.UI.ListView" data-win-options="{tapBehavior: 'directSelect', itemDataSource : DataExample.itemList.dataSource, itemTemplate: select('#mediumListIconTextTemplate'), selectionMode: 'single', layout : {type: WinJS.UI.ListLayout}}">
+    </div>
+
+    <!--<div id="listDiv"
+         data-win-control="WinJS.UI.FlipView"
+         data-win-options="{ itemDataSource : dataList.dataSource }">
+    </div>
+    <script type="text/javascript">
+
+        var dataArray = [
+            { name: "Marley", species: "dog" },
+            { name: "Lola", species: "cat" },
+            { name: "Leo", species: "dog" },
+            { name: "Izzy", species: "cat" },
+            { name: "Ziggy", species: "cat" },
+            { name: "Ruby", species: "dog" }
+        ];
+
+        var dataList = new WinJS.Binding.List(dataArray);
+        WinJS.UI.processAll();
+    </script>-->
+
     <!--<div id="itemTemplate" data-win-control="WinJS.Binding.Template">
         <div data-win-control="WinJS.UI.ItemContainer" data-win-options="{tapBehavior: WinJS.UI.TapBehavior.toggleSelect}" style="width: 300px;">
             <div style=" margin: 10px; padding: 10px; background-color: lightgray">
@@ -30,7 +58,9 @@
          data-win-options="{data: ItemContainerExample.flavorList,
     template: select('#itemTemplate')}">
     </div>-->
-    <div class="pure-g" id="content">
+
+
+    <!--<div class="pure-g" id="content">
         <div class="pure-u-1" id="overlay">
             <table class="pure-u-1 pure-table pure-table-horizontal">
                 <tbody>
@@ -197,6 +227,6 @@
                 </tbody>
             </table>
         </div>
-    </div>
+    </div>-->
 </body>
 </html>

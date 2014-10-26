@@ -1,2 +1,43 @@
 ﻿body {
 }
+
+#basicListView
+{
+    height: 100%;
+}
+
+#basicListView .win-container
+{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+*
+{
+    scrollbar-base-color: rgba(29,29,29,1);
+    scrollbar-arrow-color:  rgba(29,29,29,1);
+    border-color:  rgba(29,29,29,1);
+    scrollbar-highlight-color: rgba(29,29,29,1);
+    scrollbar-face-color: rgba(29,29,29,1);
+    scrollbar-track-color: rgba(29,29,29,1);
+    scrollbar-3dlight-color: rgba(29,29,29,1);
+    scrollbar-darkshadow-color: rgba(29,29,29,1);
+    scrollbar-shadow-color: rgba(29,29,29,1);
+}
+
+#basicListView .win-listview .win-focusedoutline
+{
+    
+}
+
+.win-selectionborder, .win-selectioncheckmarkbackground, .win-selectioncheckmark, .win-focusedoutline, .w
+{
+    display: none;
+}
+
+
+.win-item
+{
+
+}

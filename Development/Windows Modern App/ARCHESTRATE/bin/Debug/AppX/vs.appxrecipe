@@ -20,25 +20,13 @@
     <AppXManifest Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-26T09:08:02.876</Modified>
+      <Modified>2014-10-26T09:30:33.306</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\pure-nr-min.css">
-      <PackagePath>css\pure-nr-min.css</PackagePath>
-      <Modified>2014-10-26T09:07:02.990</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\style.css">
-      <PackagePath>css\style.css</PackagePath>
-      <Modified>2014-10-26T09:06:28.202</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
-      <PackagePath>css\default.css</PackagePath>
-      <Modified>2014-06-02T21:38:24.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2014-10-26T09:07:59.504</Modified>
+      <Modified>2014-10-26T10:36:11.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -53,7 +41,7 @@
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-26T08:16:11.000</Modified>
+      <Modified>2014-10-26T09:11:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
@@ -77,19 +65,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-10-26T08:49:39.255</Modified>
+      <Modified>2014-10-26T09:59:22.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\raf.js">
-      <PackagePath>js\raf.js</PackagePath>
-      <Modified>2014-10-26T09:02:59.935</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\scroll.js">
-      <PackagePath>js\scroll.js</PackagePath>
-      <Modified>2014-10-26T08:59:57.909</Modified>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-10-26T11:32:41.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-26T09:08:02.825</Modified>
+      <Modified>2014-10-26T09:30:33.149</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
