@@ -29,6 +29,7 @@ body
     height: 1080px;
     margin: auto;
     position: absolute;
+	left: 140px;
 }
 
 #circle {
