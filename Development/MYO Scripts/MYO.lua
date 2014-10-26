@@ -15,6 +15,8 @@ currentBeat = startBeat
 beatCount = 1
 secondsPerBeat = 0.714
 
+-- stopTime = 0
+
 upCount = 0
 downCount = 0
 leftCount = 0
@@ -32,6 +34,8 @@ notches = 0
 
 counting = false
 
+-- reset = true
+
 
 
 tempo = 84
@@ -46,6 +50,7 @@ function onPoseEdge(pose, edge)
 			myo.keyboard("p", "press")
 			myo.debug("Fist")
 			counting = false
+			-- reset = false
 		end
 		if pose == "fist" and edge == "off"  then
 			-- myo.mouse("left", "up")
@@ -65,6 +70,30 @@ function onPeriodic()
 	if counting == true then
 		currentTime = (myo.getTimeMilliseconds() - beginTime) / 1000
 	else
+		-- stopTime = (myo.getTimeMilliseconds() - currentTime) / 1000
+		-- if stopTime > 10 and reset == false then
+			-- minVolume = 0.5
+			-- maxVolume = 1.0
+			-- currentVolume = 0.5
+			-- volumeIncrement = 0.1
+			-- downIncrement = - 0.1
+			-- enabled = true
+			-- beginTime = myo.getTimeMilliseconds()
+			-- currentTime = (myo.getTimeMilliseconds() - beginTime) / 1000
+			-- expectedTime = 0;
+			-- startBeat = 1
+			-- currentBeat = startBeat
+			-- beatCount = 1
+			-- secondsPerBeat = 0.714
+
+			-- stopTime = 0
+
+			-- notches = 0
+
+			-- counting = false
+			-- reset = true
+			-- myo.keyboard("r", "press")
+		-- end
 		return;
 	end
 	

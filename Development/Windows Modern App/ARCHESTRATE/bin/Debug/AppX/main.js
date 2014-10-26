@@ -91,6 +91,9 @@ addEvent(document, "keydown", function (e) {
         case (80):
             paused();
             break;
+        //case (114):
+        //    reset();
+        //    break;
         default:
             break;
     }
@@ -117,6 +120,10 @@ function start() {
     document.getElementById("circle").style.animationPlayState= "running";
     document.getElementById("circle").style.MsAnimationPlayState= "running";
 }
+
+//function reset() {
+//    location.reload();
+//}
 
 /*
 if (audio.pause() === true) {

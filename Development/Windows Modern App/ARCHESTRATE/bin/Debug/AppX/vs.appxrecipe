@@ -85,7 +85,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\main.js">
       <PackagePath>main.js</PackagePath>
-      <Modified>2014-10-26T15:25:57.165</Modified>
+      <Modified>2014-10-26T15:48:15.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
       <PackagePath>css\default.css</PackagePath>
