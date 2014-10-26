@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>  
+  <script src="jquery.path.js" type="text/javascript"></script>
+  <link href="index.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+
+    <div id="circle"></div>
+    
+    <script>
+        
+      
+      var arc_params = {
+        center: [285,185],  
+        radius: 100,    
+        start: 30,
+        end: 200,
+        dir: -1
+         };
+  
+    $("circle").animate({path : new $.path.arc(arc_params)});  
+    </script>
+  </body>
+</html>      
