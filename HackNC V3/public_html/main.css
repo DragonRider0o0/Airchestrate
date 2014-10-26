@@ -12,7 +12,7 @@ and open the template in the editor.
     width:100%;
 }
 #pattern {
-    position: absolute; left: 0; top: 0;
+    position: absolute; left: 15px; top: 15px;
     width: 1820px;
     height: auto;
 }
@@ -25,9 +25,8 @@ and open the template in the editor.
 }
 
 #circle {
-    width: 20px;
-    height: 20px;
-    //background: black;
+  //  width: 50px;
+  //  height: 50px;
     position: absolute;
     left:893px; top:108px;
     /* Chrome, Safari, Opera */
@@ -37,7 +36,7 @@ and open the template in the editor.
   //  -webkit-animation-delay: 2s;
     -webkit-animation-iteration-count: infinite;
 //    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
+    -webkit-animation-play-state: paused;
     /* Standard syntax */
     animation-name: myfirst;
     animation-duration: 2.85714286s;
@@ -45,16 +44,15 @@ and open the template in the editor.
    // animation-delay: 2s;
     animation-iteration-count: infinite;
 //    animation-direction: alternate;
-    animation-play-state: running;
+    animation-play-state: paused;
 }
-
+/*
 #twinCircle {
     width: 20px;
     height: 20px;
     background: transparent;
     position: absolute;
     left:945px; top:110px;
-    /* Chrome, Safari, Opera */
     -webkit-animation-name: myfirst;
     -webkit-animation-duration: 2.85714286s;
     -webkit-animation-timing-function: linear;
@@ -62,7 +60,6 @@ and open the template in the editor.
     -webkit-animation-iteration-count: infinite;
 //    -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
-    /* Standard syntax */
     animation-name: myfirst;
     animation-duration: 2.85714286s;
     animation-timing-function: linear;
@@ -71,7 +68,7 @@ and open the template in the editor.
 //    animation-direction: alternate;
     animation-play-state: running;
 }
-
+*/
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -300,3 +297,4 @@ and open the template in the editor.
     75%  {background:green; left:500px; top:600px;}
     100% {background:red; left:500px; top:400px;}
     }
+    
