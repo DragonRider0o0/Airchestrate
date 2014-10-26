@@ -1,0 +1,44 @@
+Image Asset Sizes: (*** = required)
+	Store Logo
+		90px x 90px
+		70px x 70px
+	***	50px x 50px
+	
+	Small Square Logo
+		54px x 54px
+		42px x 42px
+	***	30px x 30px
+		24px x 24px
+		256px x 256px
+		48px x 48px
+		32px x 32px
+		16px x 16px
+
+	Medium Square Logo
+		126px x 126px
+		98px x 98px
+	***	70px x 70px
+		56px x 56px
+		
+	Large Square Logo
+		270px x 270px
+		210px x 210px
+	***	150px x 150px
+		120px x 120px
+	
+	Extra Large Square Logo
+		558px x 558px
+		434px x 434px
+	***	310px x 310px
+		248px x 248px
+		
+	Wide Logo
+		558px x 270px
+		434px x 210px
+	***	310px x 150px
+		248px x 120px
+		
+	Splash (Large Wide) Logo
+		1116px x 540px
+		868px x 420px
+	***	620px x 300px
