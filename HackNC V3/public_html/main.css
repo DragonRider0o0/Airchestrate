@@ -25,25 +25,25 @@ and open the template in the editor.
 }
 
 #circle {
-  //  width: 50px;
-  //  height: 50px;
+  /*  width: 50px; */
+  /*  height: 50px; */
     position: absolute;
     left:893px; top:108px;
-    /* Chrome, Safari, Opera
+    /* Chrome, Safari, Opera */ 
     -webkit-animation-name: myfirst;
     -webkit-animation-duration: 2.85714286s;
     -webkit-animation-timing-function: linear;
-  //  -webkit-animation-delay: 2s;
+  /*  -webkit-animation-delay: 2s; */
     -webkit-animation-iteration-count: infinite;
-//    -webkit-animation-direction: alternate;
+/*    -webkit-animation-direction: alternate; */
     -webkit-animation-play-state: paused;
-    Standard syntax */
+    /* Standard syntax */
     animation-name: myfirst;
     animation-duration: 2.85714286s;
     animation-timing-function: linear;
-   // animation-delay: 2s;
+    /* animation-delay: 2s; */
     animation-iteration-count: infinite;
-//    animation-direction: alternate;
+    /* animation-direction: alternate; */
     animation-play-state: paused;
 }
 /*
@@ -78,7 +78,7 @@ and open the template in the editor.
     Created on : Oct 26, 2014, 3:41:42 AM
     Author     : landon
 */
-/*
+
 @-webkit-keyframes myfirst {
     0%   {background:transparent; left:892px; top:108px;}
     1%   {background:transparent; left:892px; top:136px;}
@@ -185,7 +185,7 @@ and open the template in the editor.
 
 
 /* Chrome, Safari, Opera */
-/*
+
 @-webkit-keyframes myfirst {
     0%   {background:transparent; left:892px; top:108px;}
     1%   {background:transparent; left:892px; top:130px;}
@@ -289,8 +289,8 @@ and open the template in the editor.
     99%  {background:transparent; left:900px; top:156px;}
     100%  {background:transparent; left:892px; top:108px;}
 }
-*/
-/* Standard syntax */
+
+/* Standard syntax
 @keyframes myfirst {
     0%   {background:transparent; left:892px; top:108px;}
     1%   {background:transparent; left:892px; top:136px;}
@@ -394,3 +394,4 @@ and open the template in the editor.
     99%  {background:transparent; left:900px; top:156px;}
     100%  {background:transparent; left:892px; top:108px;}
 }
+*/
