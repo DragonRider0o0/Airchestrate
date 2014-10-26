@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>fa516bcb-3eec-4a9c-bd04-84b490b86f2d</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bld\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>9474371AA7A80A378CA3975A7EEEB21C4926AEF3A6856DEB510AADE7555F0A57</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E3170CD426427EDF4E1127B47ED67C65127BC8D60D6A4B02F7DBBD3B500FBFBC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fa516bcb-3eec-4a9c-bd04-84b490b86f2d_1.0.0.0_neutral__g5bmrr9bq4kqt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fa516bcb-3eec-4a9c-bd04-84b490b86f2d_g5bmrr9bq4kqt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fa516bcb-3eec-4a9c-bd04-84b490b86f2d</RegisteredPackageID>
@@ -20,45 +20,76 @@
     <AppXManifest Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-26T03:33:57.778</Modified>
+      <Modified>2014-10-26T09:08:02.876</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\default.html">
-      <PackagePath>default.html</PackagePath>
-      <Modified>2014-10-26T03:33:36.142</Modified>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\pure-nr-min.css">
+      <PackagePath>css\pure-nr-min.css</PackagePath>
+      <Modified>2014-10-26T09:07:02.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\logo.scale-100.png">
-      <PackagePath>images\logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T21:38:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\smalllogo.scale-100.png">
-      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T21:38:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\splashscreen.scale-100.png">
-      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T21:38:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\storelogo.scale-100.png">
-      <PackagePath>images\storelogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-02T21:38:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\default.js">
-      <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-03-14T06:15:36.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+      <Modified>2014-10-26T09:06:28.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2014-06-02T21:38:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-10-26T09:07:59.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:16:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-26T08:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-10-26T08:49:39.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\raf.js">
+      <PackagePath>js\raf.js</PackagePath>
+      <Modified>2014-10-26T09:02:59.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\js\scroll.js">
+      <PackagePath>js\scroll.js</PackagePath>
+      <Modified>2014-10-26T08:59:57.909</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Drago_000.TIANA-SURFACE\Dropbox\Hackathons\Airchestrate\Development\Windows Modern App\ARCHESTRATE\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-26T03:33:57.714</Modified>
+      <Modified>2014-10-26T09:08:02.825</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

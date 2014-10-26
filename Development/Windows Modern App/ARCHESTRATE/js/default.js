@@ -30,3 +30,23 @@
 
     app.start();
 })();
+
+
+(function ()
+{
+    "use strict";
+
+    var basicList = new WinJS.Binding.List(
+        [
+            { title: "Banana blast"},
+            { title: "Strawberry swirl"},
+            { title: "Magnificant mint"},
+            { title: "Lemon lift"}
+        ]);
+
+    WinJS.Namespace.define("ItemContainerExample",
+        {
+            flavorList: basicList
+
+        });
+})();
