@@ -10,8 +10,8 @@ enabled = true
 beginTime = myo.getTimeMilliseconds()
 currentTime = (myo.getTimeMilliseconds() - beginTime) / 1000
 expectedTime = 0;
-startBeat = 4
-currentBeat = 4
+startBeat = 1
+currentBeat = startBeat
 beatCount = 1
 secondsPerBeat = 0.714
 
@@ -69,8 +69,7 @@ function onPeriodic()
 	end
 	
 	if expectedTime < currentTime then
-		beatCount = beatCount + 1;
-		currentBeat = (beatCount % 4) + 1
+
 		myo.debug("\tUp: " .. upCount .. "\tDown: " .. downCount .. "\tLeft: " .. leftCount .. "\tRight: " .. rightCount )
 
 		
@@ -111,6 +110,9 @@ function onPeriodic()
 			notches = math.floor((upCount - 3) / 2)
 		end
 		
+		beatCount = beatCount + 1;
+		currentBeat = (beatCount % 4) + 1
+		
 		upCount = 0
 		downCount = 0
 		leftCount = 0
@@ -119,12 +121,12 @@ function onPeriodic()
 		while currentVolume > minVolume do
 			currentVolume = currentVolume - volumeIncrement
 			myo.debug("Current Volume: " .. currentVolume)
-			myo.keyboard("down_arrow", "press")
+			myo.keyboard("0", "press")
 		end
 		while currentVolume < (minVolume + (notches * volumeIncrement)) do
 			myo.debug("Current Volume: " .. currentVolume)
 			currentVolume = currentVolume + volumeIncrement
-			myo.keyboard("up_arrow", "press")
+			myo.keyboard("1", "press")
 		end
 		
 		-- myo.debug("\t" .. notches)

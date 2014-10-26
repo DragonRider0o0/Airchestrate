@@ -55,6 +55,9 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Airchestrate_background5.png" />
+    <Content Include="circle_white.png" />
+    <Content Include="Conducting-Pattern-2.png" />
     <Content Include="default.html" />
     <Content Include="images\logo.scale-100.png" />
     <Content Include="images\smalllogo.scale-100.png" />
@@ -63,8 +66,12 @@
     <Content Include="images\Square70x70Logo.scale-100.png" />
     <Content Include="images\storelogo.scale-100.png" />
     <Content Include="images\Wide310x150Logo.scale-100.png" />
+    <Content Include="index.html" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="main.css" />
+    <Content Include="main.js" />
+    <Content Include="song.mp3" />
     <None Include="AIRCHESTRATE_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

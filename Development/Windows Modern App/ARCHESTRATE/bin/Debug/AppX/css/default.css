@@ -1,4 +1,6 @@
-﻿body {
+﻿body, html {
+    min-height: 99%;
+    min-width: 100%;
 }
 
 #basicListView
@@ -24,6 +26,7 @@
     scrollbar-3dlight-color: rgba(29,29,29,1);
     scrollbar-darkshadow-color: rgba(29,29,29,1);
     scrollbar-shadow-color: rgba(29,29,29,1);
+    overflow: hidden;
 }
 
 #basicListView .win-listview .win-focusedoutline
@@ -33,7 +36,7 @@
 
 .win-selectionborder, .win-selectioncheckmarkbackground, .win-selectioncheckmark, .win-focusedoutline, .w
 {
-    display: none;
+    /*display: none;*/
 }
 
 
